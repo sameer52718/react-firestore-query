@@ -1,0 +1,42 @@
+{
+  "name": "react-firestore-query",
+  "version": "1.0.0",
+  "description": "React Query hooks for Firebase Firestore with real-time subscriptions, caching, pagination, and offline support",
+  "main": "./dist/react-firestore-query.cjs.js",
+  "module": "./dist/react-firestore-query.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-firestore-query.es.js",
+      "require": "./dist/react-firestore-query.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo 'Implement tests' && exit 0",
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "firebase": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "author": "Sameer Shaikh <alisameer52718@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameer52718/react-firestore-query.git"
+  }
+}
